@@ -1,0 +1,32 @@
+*{background-color: black;
+padding: 10px;}
+.head {
+    background-color: black;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Con{
+  color: gray;
+  padding: 20px;
+}
+
+.link,
+.git,
+.phone {
+    padding: 10px;
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+    background-color: white;
+}
+
+.link:hover,
+.git:hover,
+.phone:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}

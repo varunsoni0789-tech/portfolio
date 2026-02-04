@@ -1,0 +1,29 @@
+.card {
+    background-color: black;
+    padding: 20px;
+
+}
+
+.Heading {
+    color: lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    
+    
+}
+
+.card1 img {
+    border-radius: 25px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.card1 img:hover {
+    transform: scale(1.1); /* hover zoom effect */
+}
